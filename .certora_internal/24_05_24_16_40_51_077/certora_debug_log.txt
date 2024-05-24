@@ -1,0 +1,16 @@
+Saving last configuration file to .certora_internal/24_05_24_16_40_51_077/run.conf
+There is no TAC file. Going to script EVMVerifier/certoraBuild.py to main_with_args()
+Creating dir /home/shan/my_project/Contract-Attacks/.certora_internal/24_05_24_16_40_51_077/.certora_config
+In /home/shan/my_project/Contract-Attacks/ERC20.spec, found the imports: []
+copying spec file /home/shan/my_project/Contract-Attacks/ERC20.spec to /home/shan/my_project/Contract-Attacks/.certora_internal/24_05_24_16_40_51_077/.certora_sources/.0_ERC20.spec.spec
+writing /home/shan/my_project/Contract-Attacks/.certora_internal/24_05_24_16_40_51_077/.certora_verify.json
+Path to typechecker is /home/shan/.local/lib/python3.10/site-packages/certora_jars/Typechecker.jar
+running ['java', '-jar', '/home/shan/.local/lib/python3.10/site-packages/certora_jars/Typechecker.jar', '-buildDirectory', '/home/shan/my_project/Contract-Attacks/.certora_internal/24_05_24_16_40_51_077']
+Failed to compile spec files:
+[main] ERROR ALWAYS - Found errors in ERC20.spec:
+[main] ERROR ALWAYS - Error in spec file (ERC20.spec:94:24): Syntax error: unexpected token near `{`
+build failed
+Failure traceback: 
+CertoraUserInputError: CVL specification syntax check failed
+Encountered an error running Certora Prover:
+CVL specification syntax check failed

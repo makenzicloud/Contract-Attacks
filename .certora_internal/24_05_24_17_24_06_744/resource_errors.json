@@ -1,0 +1,17 @@
+{
+    "topics": [
+        {
+            "name": "type_check",
+            "messages": [
+                {
+                    "message": "Error in spec file (ERC20.spec:100:31): Syntax error: unexpected token near `(`",
+                    "location": []
+                },
+                {
+                    "message": "Error in spec file (ERC20.spec:105:1): Syntax error: unexpected token near `}`",
+                    "location": []
+                }
+            ]
+        }
+    ]
+}

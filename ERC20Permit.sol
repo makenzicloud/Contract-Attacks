@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.7.0;
 
-import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
-import "@openzeppelin/contracts/utils/Counters.sol";
+import "./ERC20.sol";
+import "./Counters.sol";
 
-import "./interface/IERC2612Permit.sol";
+import "./IERC2612Permit.sol";
 
 
 // ERC20-Permit implementation from soliditylabs ( https://github.com/soliditylabs/ERC20-Permit )

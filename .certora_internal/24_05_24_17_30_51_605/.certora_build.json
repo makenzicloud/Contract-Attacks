@@ -1,0 +1,2476 @@
+{
+    "ERC20_00000000ce4604a0000000000000000000000005": {
+        "contracts": [
+            {
+                "address": "00000000ce4604a0000000000000000000000005",
+                "allMethods": [
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "_approve",
+                        "notpayable": true,
+                        "originalFile": null,
+                        "paramNames": [
+                            "owner",
+                            "spender",
+                            "amount"
+                        ],
+                        "returns": [],
+                        "sighash": "0",
+                        "sourceBytes": null,
+                        "stateMutability": "nonpayable",
+                        "visibility": "internal"
+                    },
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "_beforeTokenTransfer",
+                        "notpayable": true,
+                        "originalFile": null,
+                        "paramNames": [
+                            "from",
+                            "to",
+                            "amount"
+                        ],
+                        "returns": [],
+                        "sighash": "0",
+                        "sourceBytes": null,
+                        "stateMutability": "nonpayable",
+                        "visibility": "internal"
+                    },
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "_burn",
+                        "notpayable": true,
+                        "originalFile": null,
+                        "paramNames": [
+                            "account",
+                            "amount"
+                        ],
+                        "returns": [],
+                        "sighash": "0",
+                        "sourceBytes": null,
+                        "stateMutability": "nonpayable",
+                        "visibility": "internal"
+                    },
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "_mint",
+                        "notpayable": true,
+                        "originalFile": null,
+                        "paramNames": [
+                            "account",
+                            "amount"
+                        ],
+                        "returns": [],
+                        "sighash": "0",
+                        "sourceBytes": null,
+                        "stateMutability": "nonpayable",
+                        "visibility": "internal"
+                    },
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint8",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "_setupDecimals",
+                        "notpayable": true,
+                        "originalFile": null,
+                        "paramNames": [
+                            "decimals_"
+                        ],
+                        "returns": [],
+                        "sighash": "0",
+                        "sourceBytes": null,
+                        "stateMutability": "nonpayable",
+                        "visibility": "internal"
+                    },
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "_transfer",
+                        "notpayable": true,
+                        "originalFile": null,
+                        "paramNames": [
+                            "sender",
+                            "recipient",
+                            "amount"
+                        ],
+                        "returns": [],
+                        "sighash": "0",
+                        "sourceBytes": null,
+                        "stateMutability": "nonpayable",
+                        "visibility": "internal"
+                    },
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "allowance",
+                        "notpayable": true,
+                        "originalFile": "ERC20.sol",
+                        "paramNames": [
+                            "owner",
+                            "spender"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "dd62ed3e",
+                        "sourceBytes": {
+                            "begin": 3890,
+                            "size": 149
+                        },
+                        "stateMutability": "view",
+                        "visibility": "public"
+                    },
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "approve",
+                        "notpayable": true,
+                        "originalFile": "ERC20.sol",
+                        "paramNames": [
+                            "spender",
+                            "amount"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "bool",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "095ea7b3",
+                        "sourceBytes": {
+                            "begin": 4177,
+                            "size": 166
+                        },
+                        "stateMutability": "nonpayable",
+                        "visibility": "public"
+                    },
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "balanceOf",
+                        "notpayable": true,
+                        "originalFile": "ERC20.sol",
+                        "paramNames": [
+                            "account"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "70a08231",
+                        "sourceBytes": {
+                            "begin": 3340,
+                            "size": 117
+                        },
+                        "stateMutability": "view",
+                        "visibility": "public"
+                    },
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [
+                            {
+                                "location": "memory",
+                                "typeDesc": {
+                                    "type": "StringType"
+                                }
+                            },
+                            {
+                                "location": "memory",
+                                "typeDesc": {
+                                    "type": "StringType"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "constructor",
+                        "notpayable": true,
+                        "originalFile": "ERC20.sol",
+                        "paramNames": [
+                            "name_",
+                            "symbol_"
+                        ],
+                        "returns": [],
+                        "sighash": "0",
+                        "sourceBytes": {
+                            "begin": 1931,
+                            "size": 145
+                        },
+                        "stateMutability": "nonpayable",
+                        "visibility": "public"
+                    },
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "decimals",
+                        "notpayable": true,
+                        "originalFile": "ERC20.sol",
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint8",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "313ce567",
+                        "sourceBytes": {
+                            "begin": 3043,
+                            "size": 81
+                        },
+                        "stateMutability": "view",
+                        "visibility": "public"
+                    },
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "decreaseAllowance",
+                        "notpayable": true,
+                        "originalFile": "ERC20.sol",
+                        "paramNames": [
+                            "spender",
+                            "subtractedValue"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "bool",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "a457c2d7",
+                        "sourceBytes": {
+                            "begin": 6224,
+                            "size": 266
+                        },
+                        "stateMutability": "nonpayable",
+                        "visibility": "public"
+                    },
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "increaseAllowance",
+                        "notpayable": true,
+                        "originalFile": "ERC20.sol",
+                        "paramNames": [
+                            "spender",
+                            "addedValue"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "bool",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "39509351",
+                        "sourceBytes": {
+                            "begin": 5522,
+                            "size": 215
+                        },
+                        "stateMutability": "nonpayable",
+                        "visibility": "public"
+                    },
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "name",
+                        "notpayable": true,
+                        "originalFile": "ERC20.sol",
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "memory",
+                                "typeDesc": {
+                                    "type": "StringType"
+                                }
+                            }
+                        ],
+                        "sighash": "06fdde03",
+                        "sourceBytes": {
+                            "begin": 2141,
+                            "size": 81
+                        },
+                        "stateMutability": "view",
+                        "visibility": "public"
+                    },
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "symbol",
+                        "notpayable": true,
+                        "originalFile": "ERC20.sol",
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "memory",
+                                "typeDesc": {
+                                    "type": "StringType"
+                                }
+                            }
+                        ],
+                        "sighash": "95d89b41",
+                        "sourceBytes": {
+                            "begin": 2335,
+                            "size": 85
+                        },
+                        "stateMutability": "view",
+                        "visibility": "public"
+                    },
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "totalSupply",
+                        "notpayable": true,
+                        "originalFile": "ERC20.sol",
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "18160ddd",
+                        "sourceBytes": {
+                            "begin": 3184,
+                            "size": 98
+                        },
+                        "stateMutability": "view",
+                        "visibility": "public"
+                    },
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "transfer",
+                        "notpayable": true,
+                        "originalFile": "ERC20.sol",
+                        "paramNames": [
+                            "recipient",
+                            "amount"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "bool",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "a9059cbb",
+                        "sourceBytes": {
+                            "begin": 3660,
+                            "size": 172
+                        },
+                        "stateMutability": "nonpayable",
+                        "visibility": "public"
+                    },
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "transferFrom",
+                        "notpayable": true,
+                        "originalFile": "ERC20.sol",
+                        "paramNames": [
+                            "sender",
+                            "recipient",
+                            "amount"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "bool",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "23b872dd",
+                        "sourceBytes": {
+                            "begin": 4810,
+                            "size": 317
+                        },
+                        "stateMutability": "nonpayable",
+                        "visibility": "public"
+                    }
+                ],
+                "bytecode": "608060405234801561001057600080fd5b50600436106100a95760003560e01c80633950935111610071578063395093511461025857806370a08231146102bc57806395d89b4114610314578063a457c2d714610397578063a9059cbb146103fb578063dd62ed3e1461045f576100a9565b806306fdde03146100ae578063095ea7b31461013157806318160ddd1461019557806323b872dd146101b3578063313ce56714610237575b600080fd5b6100b66104d7565b6040518080602001828103825283818151815260200191508051906020019080838360005b838110156100f65780820151818401526020810190506100db565b50505050905090810190601f1680156101235780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b61017d6004803603604081101561014757600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803590602001909291905050506105e9565b60405180821515815260200191505060405180910390f35b61019d61069a565b6040518082815260200191505060405180910390f35b61021f600480360360608110156101c957600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190505050610714565b60405180821515815260200191505060405180910390f35b61023f610880565b604051808260ff16815260200191505060405180910390f35b6102a46004803603604081101561026e57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190505050610907565b60405180821515815260200191505060405180910390f35b6102fe600480360360208110156102d257600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610a4d565b6040518082815260200191505060405180910390f35b61031c610b28565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561035c578082015181840152602081019050610341565b50505050905090810190601f1680156103895780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b6103e3600480360360408110156103ad57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190505050610c3a565b60405180821515815260200191505060405180910390f35b6104476004803603604081101561041157600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190505050610d9a565b60405180821515815260200191505060405180910390f35b6104c16004803603604081101561047557600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610e4b565b6040518082815260200191505060405180910390f35b606064f196e500097fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000900005260007fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000900015260007fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000900045260038054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156105df5780601f106105b4576101008083540402835291602001916105df565b820191906000526020600020905b8154815290600101906020018083116105c257829003601f168201915b5050505050905090565b600064f196e500107fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff001000005260027fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff001000015260097fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0010000552817fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0010600152610690610689610f65565b8484610fdd565b6001905092915050565b600064f196e5000d7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000d00005260007fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000d00015260007fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000d000452600254905090565b600064f196e5000c7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000c00005260037fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000c00015260497fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000c000552817fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000c6002526107b4848484611267565b610875846107c0610f65565b6108708560405180606001604052806028815260200161192e60289139600160008b73ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206000610826610f65565b73ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020546115bb9092919063ffffffff16565b610fdd565b600190509392505050565b600064f196e5000e7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000e00005260007fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000e00015260007fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000e000452600560009054906101000a900460ff16905090565b600064f196e5000a7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000a00005260027fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000a00015260097fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000a000552817fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000a600152610a436109a7610f65565b84610a3e85600160006109b8610f65565b73ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008973ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205461170e90919063ffffffff16565b610fdd565b6001905092915050565b600064f196e5000f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000f00005260017fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000f00015260017fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000f000552817fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000f6000526000808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020549050919050565b606064f196e500087fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000800005260007fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000800015260007fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000800045260048054600181600116156101000203166002900480601f016020809104026020016040519081016040528092919081815260200182805460018160011615610100020316600290048015610c305780601f10610c0557610100808354040283529160200191610c30565b820191906000526020600020905b815481529060010190602001808311610c1357829003601f168201915b5050505050905090565b600064f196e5000b7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000b00005260027fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000b00015260097fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000b000552817fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000b600152610d90610cda610f65565b84610d8b8560405180606001604052806025815260200161199f6025913960016000610d04610f65565b73ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008a73ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020546115bb9092919063ffffffff16565b610fdd565b6001905092915050565b600064f196e500117fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff001100005260027fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff001100015260097fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0011000552817fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0011600152610e41610e3a610f65565b8484611267565b6001905092915050565b600064f196e500127fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff001200005260027fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff001200015260097fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0012000552817fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0012600152600160008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054905092915050565b600064f196e500007fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000000005260007fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000000015260007fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000000045233905090565b64f196e500067fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000600005260037fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000600015260497fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0006000552807fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0006600252600073ffffffffffffffffffffffffffffffffffffffff168373ffffffffffffffffffffffffffffffffffffffff1614156110f6576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252602481526020018061197b6024913960400191505060405180910390fd5b600073ffffffffffffffffffffffffffffffffffffffff168273ffffffffffffffffffffffffffffffffffffffff16141561117c576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260228152602001806118e66022913960400191505060405180910390fd5b80600160008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055508173ffffffffffffffffffffffffffffffffffffffff168373ffffffffffffffffffffffffffffffffffffffff167f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925836040518082815260200191505060405180910390a3505050565b64f196e500027fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000200005260037fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000200015260497fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0002000552807fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0002600252600073ffffffffffffffffffffffffffffffffffffffff168373ffffffffffffffffffffffffffffffffffffffff161415611380576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260258152602001806119566025913960400191505060405180910390fd5b600073ffffffffffffffffffffffffffffffffffffffff168273ffffffffffffffffffffffffffffffffffffffff161415611406576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260238152602001806118c36023913960400191505060405180910390fd5b61141183838361182a565b61147c81604051806060016040528060268152602001611908602691396000808773ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020546115bb9092919063ffffffff16565b6000808573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000208190555061150f816000808573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205461170e90919063ffffffff16565b6000808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055508173ffffffffffffffffffffffffffffffffffffffff168373ffffffffffffffffffffffffffffffffffffffff167fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef836040518082815260200191505060405180910390a3505050565b600064f196e500167fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff001600005260037fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff001600015260497fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0016000552817fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00166002528383111582906116fb576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360005b838110156116c05780820151818401526020810190506116a5565b50505050905090810190601f1680156116ed5780820380516001836020036101000a031916815260200191505b509250505060405180910390fd5b5060008385039050809150509392505050565b600064f196e500137fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff001300005260027fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff001300015260097fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0013000552817fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00136001526000828401905083811015611820576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601b8152602001807f536166654d6174683a206164646974696f6e206f766572666c6f77000000000081525060200191505060405180910390fd5b8091505092915050565b64f196e500077fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000700005260037fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000700015260497fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0007000552807fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000760025250505056fe45524332303a207472616e7366657220746f20746865207a65726f206164647265737345524332303a20617070726f766520746f20746865207a65726f206164647265737345524332303a207472616e7366657220616d6f756e7420657863656564732062616c616e636545524332303a207472616e7366657220616d6f756e74206578636565647320616c6c6f77616e636545524332303a207472616e736665722066726f6d20746865207a65726f206164647265737345524332303a20617070726f76652066726f6d20746865207a65726f206164647265737345524332303a2064656372656173656420616c6c6f77616e63652062656c6f77207a65726fa2646970667358221220a4725157200c18ace5b120b4da35940a5595b5c50fbf51b09b331ae71584b3f964736f6c63430007000033",
+                "compilerName": "solc",
+                "compilerParameters": {
+                    "optimizerOn": false,
+                    "optimizerRuns": null,
+                    "type": "SolcParameters",
+                    "viaIR": false
+                },
+                "compilerVersion": "0.7.0",
+                "constructorBytecode": "60806040523480156200001157600080fd5b5060405162001cba38038062001cba833981810160405260408110156200003757600080fd5b81019080805160405193929190846401000000008211156200005857600080fd5b838201915060208201858111156200006f57600080fd5b82518660018202830111640100000000821117156200008d57600080fd5b8083526020830192505050908051906020019080838360005b83811015620000c3578082015181840152602081019050620000a6565b50505050905090810190601f168015620000f15780820380516001836020036101000a031916815260200191505b50604052602001805160405193929190846401000000008211156200011557600080fd5b838201915060208201858111156200012c57600080fd5b82518660018202830111640100000000821117156200014a57600080fd5b8083526020830192505050908051906020019080838360005b838110156200018057808201518184015260208101905062000163565b50505050905090810190601f168015620001ae5780820380516001836020036101000a031916815260200191505b506040525050508160039080519060200190620001cd9291906200020b565b508060049080519060200190620001e69291906200020b565b506012600560006101000a81548160ff021916908360ff1602179055505050620002b1565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106200024e57805160ff19168380011785556200027f565b828001600101855582156200027f579182015b828111156200027e57825182559160200191906001019062000261565b5b5090506200028e919062000292565b5090565b5b80821115620002ad57600081600090555060010162000293565b5090565b6119f980620002c16000396000f3fe608060405234801561001057600080fd5b50600436106100a95760003560e01c80633950935111610071578063395093511461025857806370a08231146102bc57806395d89b4114610314578063a457c2d714610397578063a9059cbb146103fb578063dd62ed3e1461045f576100a9565b806306fdde03146100ae578063095ea7b31461013157806318160ddd1461019557806323b872dd146101b3578063313ce56714610237575b600080fd5b6100b66104d7565b6040518080602001828103825283818151815260200191508051906020019080838360005b838110156100f65780820151818401526020810190506100db565b50505050905090810190601f1680156101235780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b61017d6004803603604081101561014757600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803590602001909291905050506105e9565b60405180821515815260200191505060405180910390f35b61019d61069a565b6040518082815260200191505060405180910390f35b61021f600480360360608110156101c957600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190505050610714565b60405180821515815260200191505060405180910390f35b61023f610880565b604051808260ff16815260200191505060405180910390f35b6102a46004803603604081101561026e57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190505050610907565b60405180821515815260200191505060405180910390f35b6102fe600480360360208110156102d257600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610a4d565b6040518082815260200191505060405180910390f35b61031c610b28565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561035c578082015181840152602081019050610341565b50505050905090810190601f1680156103895780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b6103e3600480360360408110156103ad57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190505050610c3a565b60405180821515815260200191505060405180910390f35b6104476004803603604081101561041157600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190505050610d9a565b60405180821515815260200191505060405180910390f35b6104c16004803603604081101561047557600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610e4b565b6040518082815260200191505060405180910390f35b606064f196e500097fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000900005260007fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000900015260007fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000900045260038054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156105df5780601f106105b4576101008083540402835291602001916105df565b820191906000526020600020905b8154815290600101906020018083116105c257829003601f168201915b5050505050905090565b600064f196e500107fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff001000005260027fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff001000015260097fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0010000552817fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0010600152610690610689610f65565b8484610fdd565b6001905092915050565b600064f196e5000d7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000d00005260007fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000d00015260007fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000d000452600254905090565b600064f196e5000c7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000c00005260037fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000c00015260497fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000c000552817fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000c6002526107b4848484611267565b610875846107c0610f65565b6108708560405180606001604052806028815260200161192e60289139600160008b73ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206000610826610f65565b73ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020546115bb9092919063ffffffff16565b610fdd565b600190509392505050565b600064f196e5000e7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000e00005260007fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000e00015260007fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000e000452600560009054906101000a900460ff16905090565b600064f196e5000a7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000a00005260027fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000a00015260097fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000a000552817fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000a600152610a436109a7610f65565b84610a3e85600160006109b8610f65565b73ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008973ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205461170e90919063ffffffff16565b610fdd565b6001905092915050565b600064f196e5000f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000f00005260017fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000f00015260017fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000f000552817fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000f6000526000808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020549050919050565b606064f196e500087fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000800005260007fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000800015260007fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000800045260048054600181600116156101000203166002900480601f016020809104026020016040519081016040528092919081815260200182805460018160011615610100020316600290048015610c305780601f10610c0557610100808354040283529160200191610c30565b820191906000526020600020905b815481529060010190602001808311610c1357829003601f168201915b5050505050905090565b600064f196e5000b7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000b00005260027fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000b00015260097fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000b000552817fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000b600152610d90610cda610f65565b84610d8b8560405180606001604052806025815260200161199f6025913960016000610d04610f65565b73ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008a73ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020546115bb9092919063ffffffff16565b610fdd565b6001905092915050565b600064f196e500117fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff001100005260027fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff001100015260097fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0011000552817fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0011600152610e41610e3a610f65565b8484611267565b6001905092915050565b600064f196e500127fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff001200005260027fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff001200015260097fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0012000552817fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0012600152600160008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054905092915050565b600064f196e500007fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000000005260007fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000000015260007fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000000045233905090565b64f196e500067fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000600005260037fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000600015260497fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0006000552807fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0006600252600073ffffffffffffffffffffffffffffffffffffffff168373ffffffffffffffffffffffffffffffffffffffff1614156110f6576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252602481526020018061197b6024913960400191505060405180910390fd5b600073ffffffffffffffffffffffffffffffffffffffff168273ffffffffffffffffffffffffffffffffffffffff16141561117c576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260228152602001806118e66022913960400191505060405180910390fd5b80600160008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055508173ffffffffffffffffffffffffffffffffffffffff168373ffffffffffffffffffffffffffffffffffffffff167f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925836040518082815260200191505060405180910390a3505050565b64f196e500027fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000200005260037fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000200015260497fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0002000552807fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0002600252600073ffffffffffffffffffffffffffffffffffffffff168373ffffffffffffffffffffffffffffffffffffffff161415611380576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260258152602001806119566025913960400191505060405180910390fd5b600073ffffffffffffffffffffffffffffffffffffffff168273ffffffffffffffffffffffffffffffffffffffff161415611406576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260238152602001806118c36023913960400191505060405180910390fd5b61141183838361182a565b61147c81604051806060016040528060268152602001611908602691396000808773ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020546115bb9092919063ffffffff16565b6000808573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000208190555061150f816000808573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205461170e90919063ffffffff16565b6000808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055508173ffffffffffffffffffffffffffffffffffffffff168373ffffffffffffffffffffffffffffffffffffffff167fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef836040518082815260200191505060405180910390a3505050565b600064f196e500167fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff001600005260037fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff001600015260497fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0016000552817fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00166002528383111582906116fb576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360005b838110156116c05780820151818401526020810190506116a5565b50505050905090810190601f1680156116ed5780820380516001836020036101000a031916815260200191505b509250505060405180910390fd5b5060008385039050809150509392505050565b600064f196e500137fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff001300005260027fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff001300015260097fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0013000552817fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00136001526000828401905083811015611820576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601b8152602001807f536166654d6174683a206164646974696f6e206f766572666c6f77000000000081525060200191505060405180910390fd5b8091505092915050565b64f196e500077fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000700005260037fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000700015260497fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0007000552807fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000760025250505056fe45524332303a207472616e7366657220746f20746865207a65726f206164647265737345524332303a20617070726f766520746f20746865207a65726f206164647265737345524332303a207472616e7366657220616d6f756e7420657863656564732062616c616e636545524332303a207472616e7366657220616d6f756e74206578636565647320616c6c6f77616e636545524332303a207472616e736665722066726f6d20746865207a65726f206164647265737345524332303a20617070726f76652066726f6d20746865207a65726f206164647265737345524332303a2064656372656173656420616c6c6f77616e63652062656c6f77207a65726fa2646970667358221220a4725157200c18ace5b120b4da35940a5595b5c50fbf51b09b331ae71584b3f964736f6c63430007000033",
+                "constructorSrcmap": "1294:14913:1:-:0;;;1931:145;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;2013:5;2005;:13;;;;;;;;;;;;:::i;:::-;;2038:7;2028;:17;;;;;;;;;;;;:::i;:::-;;2067:2;2055:9;;:14;;;;;;;;;;;;;;;;;;1931:145;;1294:14913;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;",
+                "file": "ERC20.sol",
+                "immutables": [],
+                "internalFunctions": {
+                    "0xf196e50000": {
+                        "canonicalId": "Context.sol|Context",
+                        "declaringContract": "Context",
+                        "method": {
+                            "contractName": "Context",
+                            "fullArgs": [],
+                            "isLibrary": false,
+                            "name": "_msgSender",
+                            "notpayable": true,
+                            "originalFile": "Context.sol",
+                            "paramNames": [],
+                            "returns": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "address",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "sighash": "0",
+                            "sourceBytes": {
+                                "begin": 640,
+                                "size": 96
+                            },
+                            "stateMutability": "view",
+                            "visibility": "internal"
+                        }
+                    },
+                    "0xf196e50001": {
+                        "canonicalId": "Context.sol|Context",
+                        "declaringContract": "Context",
+                        "method": {
+                            "contractName": "Context",
+                            "fullArgs": [],
+                            "isLibrary": false,
+                            "name": "_msgData",
+                            "notpayable": true,
+                            "originalFile": "Context.sol",
+                            "paramNames": [],
+                            "returns": [
+                                {
+                                    "location": "calldata",
+                                    "typeDesc": {
+                                        "type": "PackedBytes"
+                                    }
+                                }
+                            ],
+                            "sighash": "0",
+                            "sourceBytes": {
+                                "begin": 742,
+                                "size": 99
+                            },
+                            "stateMutability": "view",
+                            "visibility": "internal"
+                        }
+                    },
+                    "0xf196e50002": {
+                        "canonicalId": "ERC20.sol|ERC20",
+                        "declaringContract": "ERC20",
+                        "method": {
+                            "contractName": "ERC20",
+                            "fullArgs": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "address",
+                                        "type": "Primitive"
+                                    }
+                                },
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "address",
+                                        "type": "Primitive"
+                                    }
+                                },
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "isLibrary": false,
+                            "name": "_transfer",
+                            "notpayable": true,
+                            "originalFile": "ERC20.sol",
+                            "paramNames": [
+                                "sender",
+                                "recipient",
+                                "amount"
+                            ],
+                            "returns": [],
+                            "sighash": "0",
+                            "sourceBytes": {
+                                "begin": 6964,
+                                "size": 530
+                            },
+                            "stateMutability": "nonpayable",
+                            "visibility": "internal"
+                        }
+                    },
+                    "0xf196e50003": {
+                        "canonicalId": "ERC20.sol|ERC20",
+                        "declaringContract": "ERC20",
+                        "method": {
+                            "contractName": "ERC20",
+                            "fullArgs": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "address",
+                                        "type": "Primitive"
+                                    }
+                                },
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "isLibrary": false,
+                            "name": "_mint",
+                            "notpayable": true,
+                            "originalFile": "ERC20.sol",
+                            "paramNames": [
+                                "account",
+                                "amount"
+                            ],
+                            "returns": [],
+                            "sighash": "0",
+                            "sourceBytes": {
+                                "begin": 7765,
+                                "size": 370
+                            },
+                            "stateMutability": "nonpayable",
+                            "visibility": "internal"
+                        }
+                    },
+                    "0xf196e50004": {
+                        "canonicalId": "ERC20.sol|ERC20",
+                        "declaringContract": "ERC20",
+                        "method": {
+                            "contractName": "ERC20",
+                            "fullArgs": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint8",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "isLibrary": false,
+                            "name": "_setupDecimals",
+                            "notpayable": true,
+                            "originalFile": "ERC20.sol",
+                            "paramNames": [
+                                "decimals_"
+                            ],
+                            "returns": [],
+                            "sighash": "0",
+                            "sourceBytes": {
+                                "begin": 9951,
+                                "size": 88
+                            },
+                            "stateMutability": "nonpayable",
+                            "visibility": "internal"
+                        }
+                    },
+                    "0xf196e50005": {
+                        "canonicalId": "ERC20.sol|ERC20",
+                        "declaringContract": "ERC20",
+                        "method": {
+                            "contractName": "ERC20",
+                            "fullArgs": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "address",
+                                        "type": "Primitive"
+                                    }
+                                },
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "isLibrary": false,
+                            "name": "_burn",
+                            "notpayable": true,
+                            "originalFile": "ERC20.sol",
+                            "paramNames": [
+                                "account",
+                                "amount"
+                            ],
+                            "returns": [],
+                            "sighash": "0",
+                            "sourceBytes": {
+                                "begin": 8455,
+                                "size": 410
+                            },
+                            "stateMutability": "nonpayable",
+                            "visibility": "internal"
+                        }
+                    },
+                    "0xf196e50006": {
+                        "canonicalId": "ERC20.sol|ERC20",
+                        "declaringContract": "ERC20",
+                        "method": {
+                            "contractName": "ERC20",
+                            "fullArgs": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "address",
+                                        "type": "Primitive"
+                                    }
+                                },
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "address",
+                                        "type": "Primitive"
+                                    }
+                                },
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "isLibrary": false,
+                            "name": "_approve",
+                            "notpayable": true,
+                            "originalFile": "ERC20.sol",
+                            "paramNames": [
+                                "owner",
+                                "spender",
+                                "amount"
+                            ],
+                            "returns": [],
+                            "sighash": "0",
+                            "sourceBytes": {
+                                "begin": 9288,
+                                "size": 340
+                            },
+                            "stateMutability": "nonpayable",
+                            "visibility": "internal"
+                        }
+                    },
+                    "0xf196e50007": {
+                        "canonicalId": "ERC20.sol|ERC20",
+                        "declaringContract": "ERC20",
+                        "method": {
+                            "contractName": "ERC20",
+                            "fullArgs": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "address",
+                                        "type": "Primitive"
+                                    }
+                                },
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "address",
+                                        "type": "Primitive"
+                                    }
+                                },
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "isLibrary": false,
+                            "name": "_beforeTokenTransfer",
+                            "notpayable": true,
+                            "originalFile": "ERC20.sol",
+                            "paramNames": [
+                                "from",
+                                "to",
+                                "amount"
+                            ],
+                            "returns": [],
+                            "sighash": "0",
+                            "sourceBytes": {
+                                "begin": 10626,
+                                "size": 92
+                            },
+                            "stateMutability": "nonpayable",
+                            "visibility": "internal"
+                        }
+                    },
+                    "0xf196e50008": {
+                        "canonicalId": "ERC20.sol|ERC20",
+                        "declaringContract": "ERC20",
+                        "method": {
+                            "contractName": "ERC20",
+                            "fullArgs": [],
+                            "isLibrary": false,
+                            "name": "symbol",
+                            "notpayable": true,
+                            "originalFile": "ERC20.sol",
+                            "paramNames": [],
+                            "returns": [
+                                {
+                                    "location": "memory",
+                                    "typeDesc": {
+                                        "type": "StringType"
+                                    }
+                                }
+                            ],
+                            "sighash": "95d89b41",
+                            "sourceBytes": {
+                                "begin": 2335,
+                                "size": 85
+                            },
+                            "stateMutability": "view",
+                            "visibility": "public"
+                        }
+                    },
+                    "0xf196e50009": {
+                        "canonicalId": "ERC20.sol|ERC20",
+                        "declaringContract": "ERC20",
+                        "method": {
+                            "contractName": "ERC20",
+                            "fullArgs": [],
+                            "isLibrary": false,
+                            "name": "name",
+                            "notpayable": true,
+                            "originalFile": "ERC20.sol",
+                            "paramNames": [],
+                            "returns": [
+                                {
+                                    "location": "memory",
+                                    "typeDesc": {
+                                        "type": "StringType"
+                                    }
+                                }
+                            ],
+                            "sighash": "06fdde03",
+                            "sourceBytes": {
+                                "begin": 2141,
+                                "size": 81
+                            },
+                            "stateMutability": "view",
+                            "visibility": "public"
+                        }
+                    },
+                    "0xf196e5000a": {
+                        "canonicalId": "ERC20.sol|ERC20",
+                        "declaringContract": "ERC20",
+                        "method": {
+                            "contractName": "ERC20",
+                            "fullArgs": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "address",
+                                        "type": "Primitive"
+                                    }
+                                },
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "isLibrary": false,
+                            "name": "increaseAllowance",
+                            "notpayable": true,
+                            "originalFile": "ERC20.sol",
+                            "paramNames": [
+                                "spender",
+                                "addedValue"
+                            ],
+                            "returns": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "bool",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "sighash": "39509351",
+                            "sourceBytes": {
+                                "begin": 5522,
+                                "size": 215
+                            },
+                            "stateMutability": "nonpayable",
+                            "visibility": "public"
+                        }
+                    },
+                    "0xf196e5000b": {
+                        "canonicalId": "ERC20.sol|ERC20",
+                        "declaringContract": "ERC20",
+                        "method": {
+                            "contractName": "ERC20",
+                            "fullArgs": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "address",
+                                        "type": "Primitive"
+                                    }
+                                },
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "isLibrary": false,
+                            "name": "decreaseAllowance",
+                            "notpayable": true,
+                            "originalFile": "ERC20.sol",
+                            "paramNames": [
+                                "spender",
+                                "subtractedValue"
+                            ],
+                            "returns": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "bool",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "sighash": "a457c2d7",
+                            "sourceBytes": {
+                                "begin": 6224,
+                                "size": 266
+                            },
+                            "stateMutability": "nonpayable",
+                            "visibility": "public"
+                        }
+                    },
+                    "0xf196e5000c": {
+                        "canonicalId": "ERC20.sol|ERC20",
+                        "declaringContract": "ERC20",
+                        "method": {
+                            "contractName": "ERC20",
+                            "fullArgs": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "address",
+                                        "type": "Primitive"
+                                    }
+                                },
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "address",
+                                        "type": "Primitive"
+                                    }
+                                },
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "isLibrary": false,
+                            "name": "transferFrom",
+                            "notpayable": true,
+                            "originalFile": "ERC20.sol",
+                            "paramNames": [
+                                "sender",
+                                "recipient",
+                                "amount"
+                            ],
+                            "returns": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "bool",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "sighash": "23b872dd",
+                            "sourceBytes": {
+                                "begin": 4810,
+                                "size": 317
+                            },
+                            "stateMutability": "nonpayable",
+                            "visibility": "public"
+                        }
+                    },
+                    "0xf196e5000d": {
+                        "canonicalId": "ERC20.sol|ERC20",
+                        "declaringContract": "ERC20",
+                        "method": {
+                            "contractName": "ERC20",
+                            "fullArgs": [],
+                            "isLibrary": false,
+                            "name": "totalSupply",
+                            "notpayable": true,
+                            "originalFile": "ERC20.sol",
+                            "paramNames": [],
+                            "returns": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "sighash": "18160ddd",
+                            "sourceBytes": {
+                                "begin": 3184,
+                                "size": 98
+                            },
+                            "stateMutability": "view",
+                            "visibility": "public"
+                        }
+                    },
+                    "0xf196e5000e": {
+                        "canonicalId": "ERC20.sol|ERC20",
+                        "declaringContract": "ERC20",
+                        "method": {
+                            "contractName": "ERC20",
+                            "fullArgs": [],
+                            "isLibrary": false,
+                            "name": "decimals",
+                            "notpayable": true,
+                            "originalFile": "ERC20.sol",
+                            "paramNames": [],
+                            "returns": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint8",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "sighash": "313ce567",
+                            "sourceBytes": {
+                                "begin": 3043,
+                                "size": 81
+                            },
+                            "stateMutability": "view",
+                            "visibility": "public"
+                        }
+                    },
+                    "0xf196e5000f": {
+                        "canonicalId": "ERC20.sol|ERC20",
+                        "declaringContract": "ERC20",
+                        "method": {
+                            "contractName": "ERC20",
+                            "fullArgs": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "address",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "isLibrary": false,
+                            "name": "balanceOf",
+                            "notpayable": true,
+                            "originalFile": "ERC20.sol",
+                            "paramNames": [
+                                "account"
+                            ],
+                            "returns": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "sighash": "70a08231",
+                            "sourceBytes": {
+                                "begin": 3340,
+                                "size": 117
+                            },
+                            "stateMutability": "view",
+                            "visibility": "public"
+                        }
+                    },
+                    "0xf196e50010": {
+                        "canonicalId": "ERC20.sol|ERC20",
+                        "declaringContract": "ERC20",
+                        "method": {
+                            "contractName": "ERC20",
+                            "fullArgs": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "address",
+                                        "type": "Primitive"
+                                    }
+                                },
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "isLibrary": false,
+                            "name": "approve",
+                            "notpayable": true,
+                            "originalFile": "ERC20.sol",
+                            "paramNames": [
+                                "spender",
+                                "amount"
+                            ],
+                            "returns": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "bool",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "sighash": "095ea7b3",
+                            "sourceBytes": {
+                                "begin": 4177,
+                                "size": 166
+                            },
+                            "stateMutability": "nonpayable",
+                            "visibility": "public"
+                        }
+                    },
+                    "0xf196e50011": {
+                        "canonicalId": "ERC20.sol|ERC20",
+                        "declaringContract": "ERC20",
+                        "method": {
+                            "contractName": "ERC20",
+                            "fullArgs": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "address",
+                                        "type": "Primitive"
+                                    }
+                                },
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "isLibrary": false,
+                            "name": "transfer",
+                            "notpayable": true,
+                            "originalFile": "ERC20.sol",
+                            "paramNames": [
+                                "recipient",
+                                "amount"
+                            ],
+                            "returns": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "bool",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "sighash": "a9059cbb",
+                            "sourceBytes": {
+                                "begin": 3660,
+                                "size": 172
+                            },
+                            "stateMutability": "nonpayable",
+                            "visibility": "public"
+                        }
+                    },
+                    "0xf196e50012": {
+                        "canonicalId": "ERC20.sol|ERC20",
+                        "declaringContract": "ERC20",
+                        "method": {
+                            "contractName": "ERC20",
+                            "fullArgs": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "address",
+                                        "type": "Primitive"
+                                    }
+                                },
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "address",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "isLibrary": false,
+                            "name": "allowance",
+                            "notpayable": true,
+                            "originalFile": "ERC20.sol",
+                            "paramNames": [
+                                "owner",
+                                "spender"
+                            ],
+                            "returns": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "sighash": "dd62ed3e",
+                            "sourceBytes": {
+                                "begin": 3890,
+                                "size": 149
+                            },
+                            "stateMutability": "view",
+                            "visibility": "public"
+                        }
+                    },
+                    "0xf196e50013": {
+                        "canonicalId": "SafeMath.sol|SafeMath",
+                        "declaringContract": "SafeMath",
+                        "method": {
+                            "contractName": "SafeMath",
+                            "fullArgs": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                },
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "isLibrary": true,
+                            "name": "add",
+                            "notpayable": true,
+                            "originalFile": "SafeMath.sol",
+                            "paramNames": [
+                                "a",
+                                "b"
+                            ],
+                            "returns": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "sighash": "0",
+                            "sourceBytes": {
+                                "begin": 873,
+                                "size": 176
+                            },
+                            "stateMutability": "pure",
+                            "visibility": "internal"
+                        }
+                    },
+                    "0xf196e50014": {
+                        "canonicalId": "SafeMath.sol|SafeMath",
+                        "declaringContract": "SafeMath",
+                        "method": {
+                            "contractName": "SafeMath",
+                            "fullArgs": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                },
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "isLibrary": true,
+                            "name": "sub",
+                            "notpayable": true,
+                            "originalFile": "SafeMath.sol",
+                            "paramNames": [
+                                "a",
+                                "b"
+                            ],
+                            "returns": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "sighash": "0",
+                            "sourceBytes": {
+                                "begin": 1320,
+                                "size": 134
+                            },
+                            "stateMutability": "pure",
+                            "visibility": "internal"
+                        }
+                    },
+                    "0xf196e50015": {
+                        "canonicalId": "SafeMath.sol|SafeMath",
+                        "declaringContract": "SafeMath",
+                        "method": {
+                            "contractName": "SafeMath",
+                            "fullArgs": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                },
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "isLibrary": true,
+                            "name": "div",
+                            "notpayable": true,
+                            "originalFile": "SafeMath.sol",
+                            "paramNames": [
+                                "a",
+                                "b"
+                            ],
+                            "returns": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "sighash": "0",
+                            "sourceBytes": {
+                                "begin": 3100,
+                                "size": 130
+                            },
+                            "stateMutability": "pure",
+                            "visibility": "internal"
+                        }
+                    },
+                    "0xf196e50016": {
+                        "canonicalId": "SafeMath.sol|SafeMath",
+                        "declaringContract": "SafeMath",
+                        "method": {
+                            "contractName": "SafeMath",
+                            "fullArgs": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                },
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                },
+                                {
+                                    "location": "memory",
+                                    "typeDesc": {
+                                        "type": "StringType"
+                                    }
+                                }
+                            ],
+                            "isLibrary": true,
+                            "name": "sub",
+                            "notpayable": true,
+                            "originalFile": "SafeMath.sol",
+                            "paramNames": [
+                                "a",
+                                "b",
+                                "errorMessage"
+                            ],
+                            "returns": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "sighash": "0",
+                            "sourceBytes": {
+                                "begin": 1745,
+                                "size": 187
+                            },
+                            "stateMutability": "pure",
+                            "visibility": "internal"
+                        }
+                    },
+                    "0xf196e50017": {
+                        "canonicalId": "SafeMath.sol|SafeMath",
+                        "declaringContract": "SafeMath",
+                        "method": {
+                            "contractName": "SafeMath",
+                            "fullArgs": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                },
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "isLibrary": true,
+                            "name": "mul",
+                            "notpayable": true,
+                            "originalFile": "SafeMath.sol",
+                            "paramNames": [
+                                "a",
+                                "b"
+                            ],
+                            "returns": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "sighash": "0",
+                            "sourceBytes": {
+                                "begin": 2179,
+                                "size": 459
+                            },
+                            "stateMutability": "pure",
+                            "visibility": "internal"
+                        }
+                    },
+                    "0xf196e50018": {
+                        "canonicalId": "SafeMath.sol|SafeMath",
+                        "declaringContract": "SafeMath",
+                        "method": {
+                            "contractName": "SafeMath",
+                            "fullArgs": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                },
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                },
+                                {
+                                    "location": "memory",
+                                    "typeDesc": {
+                                        "type": "StringType"
+                                    }
+                                }
+                            ],
+                            "isLibrary": true,
+                            "name": "div",
+                            "notpayable": true,
+                            "originalFile": "SafeMath.sol",
+                            "paramNames": [
+                                "a",
+                                "b",
+                                "errorMessage"
+                            ],
+                            "returns": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "sighash": "0",
+                            "sourceBytes": {
+                                "begin": 3712,
+                                "size": 272
+                            },
+                            "stateMutability": "pure",
+                            "visibility": "internal"
+                        }
+                    },
+                    "0xf196e50019": {
+                        "canonicalId": "SafeMath.sol|SafeMath",
+                        "declaringContract": "SafeMath",
+                        "method": {
+                            "contractName": "SafeMath",
+                            "fullArgs": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                },
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "isLibrary": true,
+                            "name": "mod",
+                            "notpayable": true,
+                            "originalFile": "SafeMath.sol",
+                            "paramNames": [
+                                "a",
+                                "b"
+                            ],
+                            "returns": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "sighash": "0",
+                            "sourceBytes": {
+                                "begin": 4435,
+                                "size": 128
+                            },
+                            "stateMutability": "pure",
+                            "visibility": "internal"
+                        }
+                    },
+                    "0xf196e5001a": {
+                        "canonicalId": "SafeMath.sol|SafeMath",
+                        "declaringContract": "SafeMath",
+                        "method": {
+                            "contractName": "SafeMath",
+                            "fullArgs": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                },
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                },
+                                {
+                                    "location": "memory",
+                                    "typeDesc": {
+                                        "type": "StringType"
+                                    }
+                                }
+                            ],
+                            "isLibrary": true,
+                            "name": "mod",
+                            "notpayable": true,
+                            "originalFile": "SafeMath.sol",
+                            "paramNames": [
+                                "a",
+                                "b",
+                                "errorMessage"
+                            ],
+                            "returns": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "sighash": "0",
+                            "sourceBytes": {
+                                "begin": 5034,
+                                "size": 163
+                            },
+                            "stateMutability": "pure",
+                            "visibility": "internal"
+                        }
+                    }
+                },
+                "is_static_address": false,
+                "lang": "Solidity",
+                "methods": [
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [
+                            {
+                                "location": "memory",
+                                "typeDesc": {
+                                    "type": "StringType"
+                                }
+                            },
+                            {
+                                "location": "memory",
+                                "typeDesc": {
+                                    "type": "StringType"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "constructor",
+                        "notpayable": true,
+                        "originalFile": "ERC20.sol",
+                        "paramNames": [
+                            "name_",
+                            "symbol_"
+                        ],
+                        "returns": [],
+                        "sighash": "0",
+                        "sourceBytes": {
+                            "begin": 1931,
+                            "size": 145
+                        },
+                        "stateMutability": "nonpayable",
+                        "visibility": "public"
+                    },
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "symbol",
+                        "notpayable": true,
+                        "originalFile": "ERC20.sol",
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "memory",
+                                "typeDesc": {
+                                    "type": "StringType"
+                                }
+                            }
+                        ],
+                        "sighash": "95d89b41",
+                        "sourceBytes": {
+                            "begin": 2335,
+                            "size": 85
+                        },
+                        "stateMutability": "view",
+                        "visibility": "public"
+                    },
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "name",
+                        "notpayable": true,
+                        "originalFile": "ERC20.sol",
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "memory",
+                                "typeDesc": {
+                                    "type": "StringType"
+                                }
+                            }
+                        ],
+                        "sighash": "06fdde03",
+                        "sourceBytes": {
+                            "begin": 2141,
+                            "size": 81
+                        },
+                        "stateMutability": "view",
+                        "visibility": "public"
+                    },
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "decimals",
+                        "notpayable": true,
+                        "originalFile": "ERC20.sol",
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint8",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "313ce567",
+                        "sourceBytes": {
+                            "begin": 3043,
+                            "size": 81
+                        },
+                        "stateMutability": "view",
+                        "visibility": "public"
+                    },
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "transferFrom",
+                        "notpayable": true,
+                        "originalFile": "ERC20.sol",
+                        "paramNames": [
+                            "sender",
+                            "recipient",
+                            "amount"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "bool",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "23b872dd",
+                        "sourceBytes": {
+                            "begin": 4810,
+                            "size": 317
+                        },
+                        "stateMutability": "nonpayable",
+                        "visibility": "public"
+                    },
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "balanceOf",
+                        "notpayable": true,
+                        "originalFile": "ERC20.sol",
+                        "paramNames": [
+                            "account"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "70a08231",
+                        "sourceBytes": {
+                            "begin": 3340,
+                            "size": 117
+                        },
+                        "stateMutability": "view",
+                        "visibility": "public"
+                    },
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "increaseAllowance",
+                        "notpayable": true,
+                        "originalFile": "ERC20.sol",
+                        "paramNames": [
+                            "spender",
+                            "addedValue"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "bool",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "39509351",
+                        "sourceBytes": {
+                            "begin": 5522,
+                            "size": 215
+                        },
+                        "stateMutability": "nonpayable",
+                        "visibility": "public"
+                    },
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "approve",
+                        "notpayable": true,
+                        "originalFile": "ERC20.sol",
+                        "paramNames": [
+                            "spender",
+                            "amount"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "bool",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "095ea7b3",
+                        "sourceBytes": {
+                            "begin": 4177,
+                            "size": 166
+                        },
+                        "stateMutability": "nonpayable",
+                        "visibility": "public"
+                    },
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "decreaseAllowance",
+                        "notpayable": true,
+                        "originalFile": "ERC20.sol",
+                        "paramNames": [
+                            "spender",
+                            "subtractedValue"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "bool",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "a457c2d7",
+                        "sourceBytes": {
+                            "begin": 6224,
+                            "size": 266
+                        },
+                        "stateMutability": "nonpayable",
+                        "visibility": "public"
+                    },
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "transfer",
+                        "notpayable": true,
+                        "originalFile": "ERC20.sol",
+                        "paramNames": [
+                            "recipient",
+                            "amount"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "bool",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "a9059cbb",
+                        "sourceBytes": {
+                            "begin": 3660,
+                            "size": 172
+                        },
+                        "stateMutability": "nonpayable",
+                        "visibility": "public"
+                    },
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "totalSupply",
+                        "notpayable": true,
+                        "originalFile": "ERC20.sol",
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "18160ddd",
+                        "sourceBytes": {
+                            "begin": 3184,
+                            "size": 98
+                        },
+                        "stateMutability": "view",
+                        "visibility": "public"
+                    },
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "allowance",
+                        "notpayable": true,
+                        "originalFile": "ERC20.sol",
+                        "paramNames": [
+                            "owner",
+                            "spender"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "dd62ed3e",
+                        "sourceBytes": {
+                            "begin": 3890,
+                            "size": 149
+                        },
+                        "stateMutability": "view",
+                        "visibility": "public"
+                    }
+                ],
+                "name": "ERC20",
+                "original_file": "ERC20.sol",
+                "solidityTypes": [],
+                "sourceBytes": {
+                    "begin": 1294,
+                    "size": 9426
+                },
+                "srcmap": "1294:14913:1:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;2141:339;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;6234:507;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;3958:356;;;:::i;:::-;;;;;;;;;;;;;;;;;;;7208:659;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;3559:339;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;8262:560;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;4372:459;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;2593:343;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;9309:616;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;5034:513;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;5605:491;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;2141:339;2178:13;2280;2212:66;2205:89;2370:1;2302:66;2295:77;2448:1;2380:66;2373:77;2468:5;2461:12;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;2141:339;:::o;6234:507::-;6317:4;6410:13;6342:66;6335:89;6500:1;6432:66;6425:77;6578:1;6510:66;6503:77;6656:6;6588:66;6581:82;6674:39;6683:12;:10;:12::i;:::-;6697:7;6706:6;6674:8;:39::i;:::-;6730:4;6723:11;;6234:507;;;;:::o;3958:356::-;4011:7;4107:13;4039:66;4032:89;4197:1;4129:66;4122:77;4275:1;4207:66;4200:77;4295:12;;4288:19;;3958:356;:::o;7208:659::-;7314:4;7407:13;7339:66;7332:89;7497:1;7429:66;7422:77;7575:2;7507:66;7500:78;7654:6;7586:66;7579:82;7672:36;7682:6;7690:9;7701:6;7672:9;:36::i;:::-;7718:121;7727:6;7735:12;:10;:12::i;:::-;7749:89;7787:6;7749:89;;;;;;;;;;;;;;;;;:11;:19;7761:6;7749:19;;;;;;;;;;;;;;;:33;7769:12;:10;:12::i;:::-;7749:33;;;;;;;;;;;;;;;;:37;;:89;;;;;:::i;:::-;7718:8;:121::i;:::-;7856:4;7849:11;;7208:659;;;;;:::o;3559:339::-;3600:5;3694:13;3626:66;3619:89;3784:1;3716:66;3709:77;3862:1;3794:66;3787:77;3882:9;;;;;;;;;;;3875:16;;3559:339;:::o;8262:560::-;8350:4;8443:13;8375:66;8368:89;8533:1;8465:66;8458:77;8611:1;8543:66;8536:77;8689:10;8621:66;8614:86;8711:83;8720:12;:10;:12::i;:::-;8734:7;8743:50;8782:10;8743:11;:25;8755:12;:10;:12::i;:::-;8743:25;;;;;;;;;;;;;;;:34;8769:7;8743:34;;;;;;;;;;;;;;;;:38;;:50;;;;:::i;:::-;8711:8;:83::i;:::-;8811:4;8804:11;;8262:560;;;;:::o;4372:459::-;4438:7;4534:13;4466:66;4459:89;4624:1;4556:66;4549:77;4702:1;4634:66;4627:77;4780:7;4712:66;4705:83;4806:9;:18;4816:7;4806:18;;;;;;;;;;;;;;;;4799:25;;4372:459;;;:::o;2593:343::-;2632:13;2734;2666:66;2659:89;2824:1;2756:66;2749:77;2902:1;2834:66;2827:77;2922:7;2915:14;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;2593:343;:::o;9309:616::-;9402:4;9495:13;9427:66;9420:89;9585:1;9517:66;9510:77;9663:1;9595:66;9588:77;9741:15;9673:66;9666:91;9768:129;9777:12;:10;:12::i;:::-;9791:7;9800:96;9839:15;9800:96;;;;;;;;;;;;;;;;;:11;:25;9812:12;:10;:12::i;:::-;9800:25;;;;;;;;;;;;;;;:34;9826:7;9800:34;;;;;;;;;;;;;;;;:38;;:96;;;;;:::i;:::-;9768:8;:129::i;:::-;9914:4;9907:11;;9309:616;;;;:::o;5034:513::-;5120:4;5213:13;5145:66;5138:89;5303:1;5235:66;5228:77;5381:1;5313:66;5306:77;5459:6;5391:66;5384:82;5477:42;5487:12;:10;:12::i;:::-;5501:9;5512:6;5477:9;:42::i;:::-;5536:4;5529:11;;5034:513;;;;:::o;5605:491::-;5694:7;5790:13;5722:66;5715:89;5880:1;5812:66;5805:77;5958:1;5890:66;5883:77;6036:7;5968:66;5961:83;6062:11;:18;6074:5;6062:18;;;;;;;;;;;;;;;:27;6081:7;6062:27;;;;;;;;;;;;;;;;6055:34;;5605:491;;;;:::o;640:354:0:-;693:7;789:13;721:66;714:89;879:1;811:66;804:77;957:1;889:66;882:77;977:10;970:17;;640:354;:::o;13747:682:1:-;13917:13;13849:66;13842:89;14007:1;13939:66;13932:77;14085:2;14017:66;14010:78;14164:6;14096:66;14089:82;14207:1;14190:19;;:5;:19;;;;14182:68;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;14287:1;14268:21;;:7;:21;;;;14260:68;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;14369:6;14339:11;:18;14351:5;14339:18;;;;;;;;;;;;;;;:27;14358:7;14339:27;;;;;;;;;;;;;;;:36;;;;14406:7;14390:32;;14399:5;14390:32;;;14415:6;14390:32;;;;;;;;;;;;;;;;;;13747:682;;;:::o;10399:872::-;10573:13;10505:66;10498:89;10663:1;10595:66;10588:77;10741:2;10673:66;10666:78;10820:6;10752:66;10745:82;10864:1;10846:20;;:6;:20;;;;10838:70;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;10947:1;10926:23;;:9;:23;;;;10918:71;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;11000:47;11021:6;11029:9;11040:6;11000:20;:47::i;:::-;11078:71;11100:6;11078:71;;;;;;;;;;;;;;;;;:9;:17;11088:6;11078:17;;;;;;;;;;;;;;;;:21;;:71;;;;;:::i;:::-;11058:9;:17;11068:6;11058:17;;;;;;;;;;;;;;;:91;;;;11182:32;11207:6;11182:9;:20;11192:9;11182:20;;;;;;;;;;;;;;;;:24;;:32;;;;:::i;:::-;11159:9;:20;11169:9;11159:20;;;;;;;;;;;;;;;:55;;;;11246:9;11229:35;;11238:6;11229:35;;;11257:6;11229:35;;;;;;;;;;;;;;;;;;10399:872;;;:::o;2417:535:3:-;2503:7;2599:13;2531:66;2524:89;2689:1;2621:66;2614:77;2767:2;2699:66;2692:78;2846:12;2778:66;2771:88;2883:1;2878;:6;;2886:12;2870:29;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;2909:9;2925:1;2921;:5;2909:17;;2944:1;2937:8;;;2417:535;;;;;:::o;873:512::-;931:7;1027:13;959:66;952:89;1117:1;1049:66;1042:77;1195:1;1127:66;1120:77;1273:1;1205:66;1198:77;1286:9;1302:1;1298;:5;1286:17;;1326:1;1321;:6;;1313:46;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1377:1;1370:8;;;873:512;;;;:::o;15771:434:1:-;15947:13;15879:66;15872:89;16037:1;15969:66;15962:77;16115:2;16047:66;16040:78;16194:6;16126:66;16119:82;15870:333;;;:::o",
+                "storageLayout": {
+                    "storage": [
+                        {
+                            "astId": 16,
+                            "contract": "/home/shan/my_project/Contract-Attacks/.certora_internal/24_05_24_17_30_51_605/.certora_sources/ERC20.sol:ERC20",
+                            "descriptor": {
+                                "annotations": [
+                                    {
+                                        "numberOfBytes": "32",
+                                        "type": "StorageAnnotation"
+                                    }
+                                ],
+                                "mappingKeyType": {
+                                    "annotations": [
+                                        {
+                                            "numberOfBytes": "20",
+                                            "type": "StorageAnnotation"
+                                        }
+                                    ],
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                },
+                                "mappingValueType": {
+                                    "annotations": [
+                                        {
+                                            "numberOfBytes": "32",
+                                            "type": "StorageAnnotation"
+                                        }
+                                    ],
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                },
+                                "type": "Mapping"
+                            },
+                            "label": "_balances",
+                            "offset": 0,
+                            "slot": "0",
+                            "type": "t_mapping(t_address,t_uint256)"
+                        },
+                        {
+                            "astId": 22,
+                            "contract": "/home/shan/my_project/Contract-Attacks/.certora_internal/24_05_24_17_30_51_605/.certora_sources/ERC20.sol:ERC20",
+                            "descriptor": {
+                                "annotations": [
+                                    {
+                                        "numberOfBytes": "32",
+                                        "type": "StorageAnnotation"
+                                    }
+                                ],
+                                "mappingKeyType": {
+                                    "annotations": [
+                                        {
+                                            "numberOfBytes": "20",
+                                            "type": "StorageAnnotation"
+                                        }
+                                    ],
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                },
+                                "mappingValueType": {
+                                    "annotations": [
+                                        {
+                                            "numberOfBytes": "32",
+                                            "type": "StorageAnnotation"
+                                        }
+                                    ],
+                                    "mappingKeyType": {
+                                        "annotations": [
+                                            {
+                                                "numberOfBytes": "20",
+                                                "type": "StorageAnnotation"
+                                            }
+                                        ],
+                                        "primitiveName": "address",
+                                        "type": "Primitive"
+                                    },
+                                    "mappingValueType": {
+                                        "annotations": [
+                                            {
+                                                "numberOfBytes": "32",
+                                                "type": "StorageAnnotation"
+                                            }
+                                        ],
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    },
+                                    "type": "Mapping"
+                                },
+                                "type": "Mapping"
+                            },
+                            "label": "_allowances",
+                            "offset": 0,
+                            "slot": "1",
+                            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))"
+                        },
+                        {
+                            "astId": 24,
+                            "contract": "/home/shan/my_project/Contract-Attacks/.certora_internal/24_05_24_17_30_51_605/.certora_sources/ERC20.sol:ERC20",
+                            "descriptor": {
+                                "annotations": [
+                                    {
+                                        "numberOfBytes": "32",
+                                        "type": "StorageAnnotation"
+                                    }
+                                ],
+                                "primitiveName": "uint256",
+                                "type": "Primitive"
+                            },
+                            "label": "_totalSupply",
+                            "offset": 0,
+                            "slot": "2",
+                            "type": "t_uint256"
+                        },
+                        {
+                            "astId": 26,
+                            "contract": "/home/shan/my_project/Contract-Attacks/.certora_internal/24_05_24_17_30_51_605/.certora_sources/ERC20.sol:ERC20",
+                            "descriptor": {
+                                "annotations": [
+                                    {
+                                        "numberOfBytes": "32",
+                                        "type": "StorageAnnotation"
+                                    }
+                                ],
+                                "type": "StringType"
+                            },
+                            "label": "_name",
+                            "offset": 0,
+                            "slot": "3",
+                            "type": "t_string_storage"
+                        },
+                        {
+                            "astId": 28,
+                            "contract": "/home/shan/my_project/Contract-Attacks/.certora_internal/24_05_24_17_30_51_605/.certora_sources/ERC20.sol:ERC20",
+                            "descriptor": {
+                                "annotations": [
+                                    {
+                                        "numberOfBytes": "32",
+                                        "type": "StorageAnnotation"
+                                    }
+                                ],
+                                "type": "StringType"
+                            },
+                            "label": "_symbol",
+                            "offset": 0,
+                            "slot": "4",
+                            "type": "t_string_storage"
+                        },
+                        {
+                            "astId": 30,
+                            "contract": "/home/shan/my_project/Contract-Attacks/.certora_internal/24_05_24_17_30_51_605/.certora_sources/ERC20.sol:ERC20",
+                            "descriptor": {
+                                "annotations": [
+                                    {
+                                        "numberOfBytes": "1",
+                                        "type": "StorageAnnotation"
+                                    }
+                                ],
+                                "primitiveName": "uint8",
+                                "type": "Primitive"
+                            },
+                            "label": "_decimals",
+                            "offset": 0,
+                            "slot": "5",
+                            "type": "t_uint8"
+                        }
+                    ],
+                    "types": {
+                        "t_address": {
+                            "encoding": "inplace",
+                            "label": "address",
+                            "numberOfBytes": "20"
+                        },
+                        "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+                            "encoding": "mapping",
+                            "key": "t_address",
+                            "label": "mapping(address => mapping(address => uint256))",
+                            "numberOfBytes": "32",
+                            "value": "t_mapping(t_address,t_uint256)"
+                        },
+                        "t_mapping(t_address,t_uint256)": {
+                            "encoding": "mapping",
+                            "key": "t_address",
+                            "label": "mapping(address => uint256)",
+                            "numberOfBytes": "32",
+                            "value": "t_uint256"
+                        },
+                        "t_string_storage": {
+                            "encoding": "bytes",
+                            "label": "string",
+                            "numberOfBytes": "32"
+                        },
+                        "t_uint256": {
+                            "encoding": "inplace",
+                            "label": "uint256",
+                            "numberOfBytes": "32"
+                        },
+                        "t_uint8": {
+                            "encoding": "inplace",
+                            "label": "uint8",
+                            "numberOfBytes": "1"
+                        }
+                    }
+                },
+                "varmap": ""
+            }
+        ],
+        "legacyStructLinking": {},
+        "library_addresses": [],
+        "primary_contract": "ERC20",
+        "primary_contract_address": "00000000ce4604a0000000000000000000000005",
+        "prototypeFor": [],
+        "sdc_name": "ERC20.sol_0",
+        "sourceDir": ".post_autofinders.0",
+        "srclist": {
+            "0": "Context.sol",
+            "1": "ERC20.sol",
+            "2": "IERC20.sol",
+            "3": "SafeMath.sol"
+        },
+        "state": {},
+        "structLinkingInfo": {}
+    }
+}

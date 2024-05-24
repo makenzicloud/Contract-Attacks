@@ -1,0 +1,13 @@
+{
+    "topics": [
+        {
+            "name": "type_check",
+            "messages": [
+                {
+                    "message": "Error in spec file (ERC20.spec:103:5): Syntax error: unexpected token near `mathint`",
+                    "location": []
+                }
+            ]
+        }
+    ]
+}

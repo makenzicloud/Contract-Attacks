@@ -1,0 +1,27 @@
+{
+    "CLI_version": "7.6.3",
+    "branch": "main",
+    "certora_ci_client": null,
+    "conf": {
+        "files": [
+            "ERC20.sol"
+        ],
+        "optimistic_loop": true,
+        "process": "emv",
+        "verify": "ERC20:ERC20.spec"
+    },
+    "conf_path": null,
+    "cwd_relative": ".",
+    "dirty": true,
+    "main_spec": "ERC20.spec",
+    "origin": "https://github.com/makenzicloud/Contract-Attacks.git",
+    "raw_args": [
+        "/home/shan/.local/bin/certoraRun",
+        "ERC20.sol",
+        "--verify",
+        "ERC20:ERC20.spec",
+        "--optimistic_loop"
+    ],
+    "revision": "5f6a27be9ce9d455ac9561d1f7a69d755003d50c",
+    "timestamp": "1716564454.291545"
+}

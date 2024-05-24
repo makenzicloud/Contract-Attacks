@@ -1,0 +1,98 @@
+Saving last configuration file to .certora_internal/24_05_24_17_57_45_023/run.conf
+There is no TAC file. Going to script EVMVerifier/certoraBuild.py to main_with_args()
+Creating dir /home/shan/my_project/Contract-Attacks/.certora_internal/24_05_24_17_57_45_023/.certora_config
+In /home/shan/my_project/Contract-Attacks/ERC20.spec, found the imports: []
+copying spec file /home/shan/my_project/Contract-Attacks/ERC20.spec to /home/shan/my_project/Contract-Attacks/.certora_internal/24_05_24_17_57_45_023/.certora_sources/.0_ERC20.spec.spec
+writing /home/shan/my_project/Contract-Attacks/.certora_internal/24_05_24_17_57_45_023/.certora_verify.json
+Path to typechecker is /home/shan/.local/lib/python3.10/site-packages/certora_jars/Typechecker.jar
+running ['java', '-jar', '/home/shan/.local/lib/python3.10/site-packages/certora_jars/Typechecker.jar', '-buildDirectory', '/home/shan/my_project/Contract-Attacks/.certora_internal/24_05_24_17_57_45_023']
+
+building file ERC20.sol
+Running cmd solc --version
+stdout, stderr = .certora_internal/24_05_24_17_57_45_023/.certora_config/version_check_solc.stdout, .certora_internal/24_05_24_17_57_45_023/.certora_config/version_check_solc.stderr
+Exitcode 0
+Solc run solc --version time: 0.3467
+Running cmd solc -o ".certora_internal/24_05_24_17_57_45_023/.certora_config/ERC20.sol_0/" --overwrite --allow-paths ".",. --standard-json
+stdout, stderr = .certora_internal/24_05_24_17_57_45_023/.certora_config/ERC20.sol_0.standard.json.stdout, .certora_internal/24_05_24_17_57_45_023/.certora_config/ERC20.sol_0.standard.json.stderr
+Exitcode 0
+Solc run solc -o ".certora_internal/24_05_24_17_57_45_023/.certora_config/ERC20.sol_0/" --overwrite --allow-paths ".",. --standard-json time: 0.396
+reading standard json data from .certora_internal/24_05_24_17_57_45_023/.certora_config/ERC20.sol_0.standard.json.stdout
+collecting worklist for /home/shan/my_project/Contract-Attacks/ERC20.sol
+Processing dependencies from file /home/shan/my_project/Contract-Attacks/ERC20.sol
+available keys: dict_keys(['/home/shan/my_project/Contract-Attacks/Context.sol', '/home/shan/my_project/Contract-Attacks/ERC20.sol', '/home/shan/my_project/Contract-Attacks/IERC20.sol', '/home/shan/my_project/Contract-Attacks/SafeMath.sol'])
+Adding a base contract link ref /home/shan/my_project/Contract-Attacks/Context.sol to worklist
+Adding a base contract link ref /home/shan/my_project/Contract-Attacks/IERC20.sol to worklist
+Adding internal link ref /home/shan/my_project/Contract-Attacks/SafeMath.sol to worklist
+Processing dependencies from file /home/shan/my_project/Contract-Attacks/SafeMath.sol
+available keys: dict_keys(['/home/shan/my_project/Contract-Attacks/Context.sol', '/home/shan/my_project/Contract-Attacks/ERC20.sol', '/home/shan/my_project/Contract-Attacks/IERC20.sol', '/home/shan/my_project/Contract-Attacks/SafeMath.sol'])
+Processing dependencies from file /home/shan/my_project/Contract-Attacks/IERC20.sol
+available keys: dict_keys(['/home/shan/my_project/Contract-Attacks/Context.sol', '/home/shan/my_project/Contract-Attacks/ERC20.sol', '/home/shan/my_project/Contract-Attacks/IERC20.sol', '/home/shan/my_project/Contract-Attacks/SafeMath.sol'])
+Processing dependencies from file /home/shan/my_project/Contract-Attacks/Context.sol
+available keys: dict_keys(['/home/shan/my_project/Contract-Attacks/Context.sol', '/home/shan/my_project/Contract-Attacks/ERC20.sol', '/home/shan/my_project/Contract-Attacks/IERC20.sol', '/home/shan/my_project/Contract-Attacks/SafeMath.sol'])
+Contracts in ERC20.sol_0 (file ERC20.sol): ['ERC20']
+Contracts with their chosen addresses: [(274184521717934524641157099916833587200, '/home/shan/my_project/Contract-Attacks/Context.sol:Context'), (274184521717934524641157099916833587201, '/home/shan/my_project/Contract-Attacks/ERC20.sol:ERC20'), (274184521717934524641157099916833587202, '/home/shan/my_project/Contract-Attacks/IERC20.sol:IERC20'), (274184521717934524641157099916833587203, '/home/shan/my_project/Contract-Attacks/SafeMath.sol:SafeMath')]
+Working on contract Context
+Working on contract Context
+Working on contract ERC20
+Working on contract ERC20
+Working on contract IERC20
+Working on contract IERC20
+Working on contract SafeMath
+Working on contract SafeMath
+For contracts of primary ERC20
+finding primary contract address of /home/shan/my_project/Contract-Attacks/ERC20.sol:ERC20 in [(274184521717934524641157099916833587200, '/home/shan/my_project/Contract-Attacks/Context.sol:Context'), (274184521717934524641157099916833587201, '/home/shan/my_project/Contract-Attacks/ERC20.sol:ERC20'), (274184521717934524641157099916833587202, '/home/shan/my_project/Contract-Attacks/IERC20.sol:IERC20'), (274184521717934524641157099916833587203, '/home/shan/my_project/Contract-Attacks/SafeMath.sol:SafeMath')]
+Contracts in SDC ERC20.sol_0: ['Context', 'ERC20', 'IERC20', 'SafeMath']
+Building source tree
+Copying /home/shan/my_project/Contract-Attacks/ERC20.sol to .certora_internal/24_05_24_17_57_45_023/.certora_sources/ERC20.sol
+Copying /home/shan/my_project/Contract-Attacks/ERC20.spec to .certora_internal/24_05_24_17_57_45_023/.certora_sources/ERC20.spec
+Copying /home/shan/my_project/Contract-Attacks/IERC20.sol to .certora_internal/24_05_24_17_57_45_023/.certora_sources/IERC20.sol
+Copying /home/shan/my_project/Contract-Attacks/Context.sol to .certora_internal/24_05_24_17_57_45_023/.certora_sources/Context.sol
+Copying /home/shan/my_project/Contract-Attacks/SafeMath.sol to .certora_internal/24_05_24_17_57_45_023/.certora_sources/SafeMath.sol
+Backing up current .certora_sources to .certora_internal/24_05_24_17_57_45_023/.certora_sources/.pre_autofinders.0
+Running cmd solc -o ".certora_internal/24_05_24_17_57_45_023/.certora_config/ERC20.sol_0/" --overwrite --allow-paths ".certora_internal/24_05_24_17_57_45_023/.certora_sources",. --standard-json
+stdout, stderr = .certora_internal/24_05_24_17_57_45_023/.certora_config/ERC20.sol_0.standard.json.stdout, .certora_internal/24_05_24_17_57_45_023/.certora_config/ERC20.sol_0.standard.json.stderr
+Exitcode 0
+Solc run solc -o ".certora_internal/24_05_24_17_57_45_023/.certora_config/ERC20.sol_0/" --overwrite --allow-paths ".certora_internal/24_05_24_17_57_45_023/.certora_sources",. --standard-json time: 0.5313
+reading standard json data from .certora_internal/24_05_24_17_57_45_023/.certora_config/ERC20.sol_0.standard.json.stdout
+collecting worklist for /home/shan/my_project/Contract-Attacks/.certora_internal/24_05_24_17_57_45_023/.certora_sources/ERC20.sol
+Processing dependencies from file /home/shan/my_project/Contract-Attacks/.certora_internal/24_05_24_17_57_45_023/.certora_sources/ERC20.sol
+available keys: dict_keys(['/home/shan/my_project/Contract-Attacks/.certora_internal/24_05_24_17_57_45_023/.certora_sources/Context.sol', '/home/shan/my_project/Contract-Attacks/.certora_internal/24_05_24_17_57_45_023/.certora_sources/ERC20.sol', '/home/shan/my_project/Contract-Attacks/.certora_internal/24_05_24_17_57_45_023/.certora_sources/IERC20.sol', '/home/shan/my_project/Contract-Attacks/.certora_internal/24_05_24_17_57_45_023/.certora_sources/SafeMath.sol'])
+Adding a base contract link ref /home/shan/my_project/Contract-Attacks/.certora_internal/24_05_24_17_57_45_023/.certora_sources/Context.sol to worklist
+Adding a base contract link ref /home/shan/my_project/Contract-Attacks/.certora_internal/24_05_24_17_57_45_023/.certora_sources/IERC20.sol to worklist
+Adding internal link ref /home/shan/my_project/Contract-Attacks/.certora_internal/24_05_24_17_57_45_023/.certora_sources/SafeMath.sol to worklist
+Processing dependencies from file /home/shan/my_project/Contract-Attacks/.certora_internal/24_05_24_17_57_45_023/.certora_sources/SafeMath.sol
+available keys: dict_keys(['/home/shan/my_project/Contract-Attacks/.certora_internal/24_05_24_17_57_45_023/.certora_sources/Context.sol', '/home/shan/my_project/Contract-Attacks/.certora_internal/24_05_24_17_57_45_023/.certora_sources/ERC20.sol', '/home/shan/my_project/Contract-Attacks/.certora_internal/24_05_24_17_57_45_023/.certora_sources/IERC20.sol', '/home/shan/my_project/Contract-Attacks/.certora_internal/24_05_24_17_57_45_023/.certora_sources/SafeMath.sol'])
+Processing dependencies from file /home/shan/my_project/Contract-Attacks/.certora_internal/24_05_24_17_57_45_023/.certora_sources/IERC20.sol
+available keys: dict_keys(['/home/shan/my_project/Contract-Attacks/.certora_internal/24_05_24_17_57_45_023/.certora_sources/Context.sol', '/home/shan/my_project/Contract-Attacks/.certora_internal/24_05_24_17_57_45_023/.certora_sources/ERC20.sol', '/home/shan/my_project/Contract-Attacks/.certora_internal/24_05_24_17_57_45_023/.certora_sources/IERC20.sol', '/home/shan/my_project/Contract-Attacks/.certora_internal/24_05_24_17_57_45_023/.certora_sources/SafeMath.sol'])
+Processing dependencies from file /home/shan/my_project/Contract-Attacks/.certora_internal/24_05_24_17_57_45_023/.certora_sources/Context.sol
+available keys: dict_keys(['/home/shan/my_project/Contract-Attacks/.certora_internal/24_05_24_17_57_45_023/.certora_sources/Context.sol', '/home/shan/my_project/Contract-Attacks/.certora_internal/24_05_24_17_57_45_023/.certora_sources/ERC20.sol', '/home/shan/my_project/Contract-Attacks/.certora_internal/24_05_24_17_57_45_023/.certora_sources/IERC20.sol', '/home/shan/my_project/Contract-Attacks/.certora_internal/24_05_24_17_57_45_023/.certora_sources/SafeMath.sol'])
+Contracts in ERC20.sol_0 (file .certora_internal/24_05_24_17_57_45_023/.certora_sources/ERC20.sol): ['ERC20']
+Contracts with their chosen addresses: [(274184521717934524641157099916833587204, '/home/shan/my_project/Contract-Attacks/.certora_internal/24_05_24_17_57_45_023/.certora_sources/Context.sol:Context'), (274184521717934524641157099916833587205, '/home/shan/my_project/Contract-Attacks/.certora_internal/24_05_24_17_57_45_023/.certora_sources/ERC20.sol:ERC20'), (274184521717934524641157099916833587206, '/home/shan/my_project/Contract-Attacks/.certora_internal/24_05_24_17_57_45_023/.certora_sources/IERC20.sol:IERC20'), (274184521717934524641157099916833587207, '/home/shan/my_project/Contract-Attacks/.certora_internal/24_05_24_17_57_45_023/.certora_sources/SafeMath.sol:SafeMath')]
+Working on contract Context
+Working on contract Context
+Working on contract ERC20
+Working on contract ERC20
+Working on contract IERC20
+Working on contract IERC20
+Working on contract SafeMath
+Working on contract SafeMath
+For contracts of primary ERC20
+finding primary contract address of /home/shan/my_project/Contract-Attacks/.certora_internal/24_05_24_17_57_45_023/.certora_sources/ERC20.sol:ERC20 in [(274184521717934524641157099916833587204, '/home/shan/my_project/Contract-Attacks/.certora_internal/24_05_24_17_57_45_023/.certora_sources/Context.sol:Context'), (274184521717934524641157099916833587205, '/home/shan/my_project/Contract-Attacks/.certora_internal/24_05_24_17_57_45_023/.certora_sources/ERC20.sol:ERC20'), (274184521717934524641157099916833587206, '/home/shan/my_project/Contract-Attacks/.certora_internal/24_05_24_17_57_45_023/.certora_sources/IERC20.sol:IERC20'), (274184521717934524641157099916833587207, '/home/shan/my_project/Contract-Attacks/.certora_internal/24_05_24_17_57_45_023/.certora_sources/SafeMath.sol:SafeMath')]
+Contracts in SDC ERC20.sol_0: ['Context', 'ERC20', 'IERC20', 'SafeMath']
+Backing up instrumented .certora_sources to .certora_internal/24_05_24_17_57_45_023/.certora_sources/.post_autofinders.0
+Rolling back .certora_sources to .certora_internal/24_05_24_17_57_45_023/.certora_sources/.pre_autofinders.0 version
+Libraries to add = []
+writing file /home/shan/my_project/Contract-Attacks/.certora_internal/24_05_24_17_57_45_023/.certora_build.json
+writing file /home/shan/my_project/Contract-Attacks/.certora_internal/24_05_24_17_57_45_023/.certora_build_output_props.json
+writing /home/shan/my_project/Contract-Attacks/.certora_internal/24_05_24_17_57_45_023/.certora_verify.json
+Path to typechecker is /home/shan/.local/lib/python3.10/site-packages/certora_jars/Typechecker.jar
+running ['java', '-jar', '/home/shan/.local/lib/python3.10/site-packages/certora_jars/Typechecker.jar', '-buildDirectory', '/home/shan/my_project/Contract-Attacks/.certora_internal/24_05_24_17_57_45_023', '-typeCheck']
+Failed to compile spec files:
+[main] ERROR ALWAYS - Found errors in ERC20.spec:
+[main] ERROR ALWAYS - Error in spec file (ERC20.spec:100:5): Redeclaring variables is not supported; `args` was previously declared on line 91
+[main] ERROR ALWAYS - Error in spec file (ERC20.spec:102:7): Variable `env` has not been declared.
+[main] ERROR ALWAYS - Error in spec file (ERC20.spec:102:12): Variable `calldataarg` has not been declared.
+Failure traceback: 
+CertoraUserInputError: CVL specification syntax and type check failed
+Encountered an error running Certora Prover:
+CVL specification syntax and type check failed
