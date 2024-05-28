@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: MIT
 // OpenZeppelin Contracts (last updated v5.0.0) (proxy/utils/UUPSUpgradeable.sol)
 
-pragma solidity ^0.8.20;
+pragma solidity 0.8.13;
 
-import {IERC1822Proxiable} from ".s/draft-IERC1822.sol";
-import {ERC1967Utils} from "../ERC1967/ERC1967Utils.sol";
+import {IERC1822Proxiable} from "./draft-IERC1822.sol";
+import {ERC1967Utils} from "./ERC1967Utils.sol";
 
 /**
  * @dev An upgradeability mechanism designed for UUPS proxies. The functions included here can perform an upgrade of an

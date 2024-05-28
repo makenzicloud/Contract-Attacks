@@ -1,0 +1,27 @@
+{
+    "CLI_version": "7.6.3",
+    "branch": "main",
+    "certora_ci_client": null,
+    "conf": {
+        "files": [
+            "Metrom.sol"
+        ],
+        "optimistic_loop": true,
+        "process": "emv",
+        "verify": "Metrom:ERC20.spec"
+    },
+    "conf_path": null,
+    "cwd_relative": ".",
+    "dirty": true,
+    "main_spec": "ERC20.spec",
+    "origin": "https://github.com/makenzicloud/Contract-Attacks.git",
+    "raw_args": [
+        "/home/shan/.local/bin/certoraRun",
+        "Metrom.sol",
+        "--verify",
+        "Metrom:ERC20.spec",
+        "--optimistic_loop"
+    ],
+    "revision": "dd2452d0db1fafcec5098af9ab46f2e742ed4230",
+    "timestamp": "1716892776.507359"
+}
