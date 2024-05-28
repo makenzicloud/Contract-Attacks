@@ -3,6 +3,7 @@ pragma solidity 0.8.13;
 import {IERC20} from "./IERC20.sol";
 import {SafeERC20} from "./SafeERC20.sol";
 import {MerkleProof} from "./MerkleProof.sol";
+
 import {UUPSUpgradeable} from "./UUPSUpgradeable.sol";
 
 import {
@@ -51,11 +52,13 @@ contract Metrom is IMetrom, UUPSUpgradeable {
     /// @inheritdoc IMetrom
     //@audit lets check the arrow
     uint32 public override maximumCampaignDuration;
-    // mapping(bytes32 id => Campaign) internal campaigns;
-    // mapping(address account => SpecificFee) internal specificFee;
+    mapping(bytes32 => Campaign) internal campaigns;
+    
+
+    mapping(address account => SpecificFee) internal specificFee;
 
     /// @inheritdoc IMetrom
-    // mapping(address token => uint256 amount) public override claimableFees;
+    mapping(address token => uint256 amount) public override claimableFees;
 
     constructor() {
         _disableInitializers();
