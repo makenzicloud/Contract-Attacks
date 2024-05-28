@@ -2,7 +2,7 @@
 
  # certoraRun ERC20.sol  --verify ERC20:Initializable.spec --optimistic_loop
 
- # certoraRun ERC20.sol --verify  ERC20:ERC20.spec --optimistic_loop
+ # certoraRun PremiaErc20.sol --verify  PremiaErc20:ERC20.spec --optimistic_loop
 
  # certoraRun ERC20.sol  --verify ERC20:TransferChecks.spec
  

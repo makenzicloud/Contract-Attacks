@@ -3,7 +3,7 @@
 pragma solidity ^0.7.0;
 
 import "forge-std/Test.sol";
-import "../ERC20Permit.sol";
+import "..//draft-ERC20Permit.sol";
 import "../ERC20.sol";
 
 contract ERC20PermitTest is Test {
@@ -11,7 +11,7 @@ contract ERC20PermitTest is Test {
     address owner;
     address spender;
 
-    function setUp() public {
+    function setUp()  {
         owner = address(0x123);
         spender = address(0x456);
         token = new ERC20PermitMock("TestToken", "TTK");

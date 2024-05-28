@@ -1,0 +1,8 @@
+{
+    "importFilesToOrigRelpaths": {},
+    "primary_contract": "PremiaErc20",
+    "specfile": "ERC20.spec",
+    "specfileOrigRelpath": "ERC20.spec",
+    "specfilesToImportDecls": {},
+    "type": "spec"
+}
